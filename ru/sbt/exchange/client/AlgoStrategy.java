@@ -9,5 +9,6 @@ import ru.sbt.exchange.domain.ExchangeEvent;
  * @see ru.sbt.exchange.client.Broker
  */
 public interface AlgoStrategy {
+    // test
     void onEvent(ExchangeEvent event, Broker broker);
 }
